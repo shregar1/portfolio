@@ -1,0 +1,17 @@
+.image-background-container {
+    background-image: linear-gradient(120deg, #4ac5ff 0%, #bd36fe 100%);
+    border-radius: 100%;
+    filter: blur(90px);
+}
+
+.image-background-container {
+    transition-duration: all 0.3s ease;
+}
+
+.home-title  {
+    background: linear-gradient(to right, #4ac5ff 0%, #bd36fe 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+

@@ -1,0 +1,6 @@
+.contact-title  {
+    background: linear-gradient(to right, #4ac5ff 0%, #bd36fe 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }

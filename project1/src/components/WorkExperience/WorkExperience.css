@@ -1,0 +1,47 @@
+.work-experience-company-details.hide {
+    display: none; /* Initially hidden */
+    opacity: 0; /* Initially transparent */
+    height: 0; /* Initially zero height */
+    transition: opacity 0.3s ease, height 0.3s ease; /* Smooth transitions for opacity and height */
+}
+
+.work-experience-company-details.show {
+    display: flex; /* Show the card */
+    opacity: 1; /* Fully opaque */
+    height: auto; /* Auto height, content determines the height */
+}
+
+.work-experience:hover .work-experience-company-title {
+    background: linear-gradient(to right, #4ac5ff 0%, #bd36fe 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.work-experience:hover .work-experience-company {
+    background-color: white
+}
+
+.work-experience-company.show {
+    border-bottom-right-radius: 0%;
+    border-bottom-left-radius: 0%;
+}
+
+.work-experience-company{
+    width: 100%
+}
+
+.work-experience-company.hide {
+    border-radius: 1rem;
+}
+
+.work-experience-company.show {
+    background-color: white
+}
+
+.work-experience-company.show .work-experience-company-title {
+    background: linear-gradient(to right, #4ac5ff 0%, #bd36fe 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
