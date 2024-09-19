@@ -42,10 +42,9 @@ const Home = (props) => {
         {props.work_experiences.map((work_experience, index) => {
           return (
             <div className="flex flex-col w-full" key={work_experience.id}>
-              <WorkExperience  work_experience={work_experience}/>
+              <WorkExperience work_experience={work_experience} />
             </div>
-          
-        )
+          );
         })}
       </div>
     </>

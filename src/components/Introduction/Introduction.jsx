@@ -3,7 +3,7 @@ import { Typewriter } from 'react-simple-typewriter';
 
 const Introduction = () => {
   return (
-    <div style={{ fontSize: '24px', fontWeight: 'bold' }}>
+    <div style={{ fontSize: '40px', fontWeight: 'bold' }}>
         <span>A </span>
       <Typewriter
         words={[

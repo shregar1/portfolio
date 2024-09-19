@@ -8,6 +8,7 @@ import Container from "./components/UI/Container";
 import Home from "./components/Home/Home";
 import Projects from "./components/Projects/Projects.jsx";
 import Contacts from "./components/Contacts/Contacts.jsx";
+import Footer from "./components/Footer/Footer.jsx"
 
 function App() {
   const work_experiences = [
@@ -84,7 +85,14 @@ function App() {
           <Contacts></Contacts>
         </Container>
       </Section>
+  
+      <Section>
+        <Container>
+          <Footer></Footer>
+        </Container>
+      </Section>
     </div>
+
   );
 }
 
