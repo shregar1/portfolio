@@ -45,7 +45,7 @@ function App() {
     },
     {
       title: "DATABASES",
-      technologies: ["POSTGRESQL", "MYSQL", "MONGODB"],
+      technologies: ["POSTGRESQL", "MYSQL", "MONGODB", "SCYLLADB", "REDIS"],
     },
     {
       title: "DEPLOYMENT",
