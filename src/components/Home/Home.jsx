@@ -2,6 +2,7 @@ import Container from "../UI/Container.jsx";
 import Button from "../UI/Button.jsx";
 import WorkExperience from "../WorkExperience/WorkExperience.jsx";
 import "./Home.css";
+import Introduction from "../Introduction/Introduction.jsx";
 
 const Home = (props) => {
   return (
@@ -17,7 +18,7 @@ const Home = (props) => {
               </li>
               <li className="flex flex-wrap justify-center md:justify-start items-center pt-5">
                 <p className="home-intro text-2xl md:text-3xl lg:text-4xl font-mono font-bold text-center md:text-start">
-                  A Fullstack Deeplearning Engineer.
+                  <Introduction></Introduction>
                 </p>
               </li>
 
