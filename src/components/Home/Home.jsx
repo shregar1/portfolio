@@ -38,7 +38,7 @@ const Home = (props) => {
       <div className="text-gray-200 flex justify-center items-center transition-all w-[100%]">
         <p className="text-2xl font-mono px-40 text-center">WORK EXPERIENCE</p>
       </div>
-      <div className="work-experiences grid grid-cols-1 sm:grid-cols-2 gap-4 mt-1 justify-between w-full pt-10">
+      <div className="work-experiences grid grid-cols-1 sm:grid-cols-2 gap-4 mt-1 justify-between w-full pt-10 cursor-pointer">
         {props.work_experiences.map((work_experience, index) => {
           return (
             <div className="flex flex-col w-full" key={work_experience.id}>

@@ -9,7 +9,7 @@ const Projects = () => {
 
   const projects = [
     {
-      title: "MONOULAR DEPTH ESTIMATION",
+      title: "MONOCULAR DEPTH ESTIMATION",
       description:
         "Monocular depth estimation is the process of predicting the distance or depth of each pixel in a 2D image relative to the camera, to infer the 3D structure of the scene from a single 2D image.",
       url: "/monocular_depth_estimation.jpeg",
