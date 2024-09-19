@@ -53,7 +53,7 @@ function App() {
     },
     {
       title: "CLOUD",
-      technologies: ["AWS"],
+      technologies: ["AWS", "AZURE", "GCP"],
     },
   ];
   return (
