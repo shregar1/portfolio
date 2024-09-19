@@ -33,11 +33,11 @@ function App() {
   const tech_stacks = [
     {
       title: "PROGRAMMING LANGUAGE",
-      technologies: ["PYTHON", "JAVASCRIPT", "RUST"],
+      technologies: ["PYTHON", "JAVASCRIPT", "GO"],
     },
     {
       title: "WEB DEVELOPMENT",
-      technologies: ["DJANGO", "FLASK", "FASTAPI", "REACT", "TAILWIND"],
+      technologies: [ "FASTAPI", "FLASK", "LITESTAR", "REACT", "TAILWIND"],
     },
     {
       title: "DEEP LEARNING",

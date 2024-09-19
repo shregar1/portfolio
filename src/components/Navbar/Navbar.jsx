@@ -6,7 +6,7 @@ const Navbar = () => {
 
   const handleDownload = () => {
     // Replace 'path/to/your/file.pdf' with the actual path to your static file
-    const filePath = 'public/shreyansh_resume.pdf';
+    const filePath = '/shreyansh_resume.pdf';
 
     // Create a link element
     const link = document.createElement('a');
