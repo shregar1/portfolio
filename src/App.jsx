@@ -9,54 +9,10 @@ import Home from "./components/Home/Home";
 import Projects from "./components/Projects/Projects.jsx";
 import Contacts from "./components/Contacts/Contacts.jsx";
 import Footer from "./components/Footer/Footer.jsx"
+import { workExperience } from "./constants/WorkExperience.js";
+import { techStack } from "./constants/TechStack.js";
 
 function App() {
-  const work_experiences = [
-    { 
-      "id": 0,
-      "company_name": "DECENTRO",
-      "duration": "SEPT 2022 - PRESENT",
-      "role": "Software Development Engineer",
-      "responsibilities": [
-        "Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
-      ]
-    },
-    {
-      "id": 1,
-      "company_name": "IQVIA",
-      "duration": "AUG 2021 - SEPT 2022",
-      "role": "AI Engineer",
-      "responsibilities": [
-        "Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
-      ]
-    }
-  ]
-  const tech_stacks = [
-    {
-      title: "PROGRAMMING LANGUAGE",
-      technologies: ["PYTHON", "JAVASCRIPT", "GO"],
-    },
-    {
-      title: "WEB DEVELOPMENT",
-      technologies: [ "FASTAPI", "FLASK", "LITESTAR", "REACT", "TAILWIND"],
-    },
-    {
-      title: "DEEP LEARNING",
-      technologies: ["PYTORCH"],
-    },
-    {
-      title: "DATABASES",
-      technologies: ["POSTGRESQL", "MYSQL", "MONGODB", "SCYLLADB", "REDIS"],
-    },
-    {
-      title: "DEPLOYMENT",
-      technologies: ["DOCKER", "CI/CD"],
-    },
-    {
-      title: "CLOUD",
-      technologies: ["AWS", "AZURE", "GCP"],
-    },
-  ];
   return (
     <div>
       <Section>
@@ -64,13 +20,13 @@ function App() {
       </Section>
       <Section>
         <Container>
-          <Home work_experiences={work_experiences}></Home>
+          <Home work_experiences={workExperience}></Home>
         </Container>
       </Section>
 
       <Section>
         <Container>
-          <About tech_stacks={tech_stacks}/>
+          <About tech_stacks={techStack}/>
         </Container>
       </Section>
 

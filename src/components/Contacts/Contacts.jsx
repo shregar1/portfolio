@@ -3,12 +3,18 @@ import Button from "../UI/Button";
 import "./Contacts.css";
 
 const Contacts = () => {
-  const openGmailInBrowser = () => {
+  const openGmail = () => {
     const email = 'sengarsinghshreyansh@gmail.com';
-    const gmailUrl = `https://mail.google.com/mail/?view=cm&fs=1&to=${email}`;
+    const gmailUrlBrowser = `https://mail.google.com/mail/?view=cm&fs=1&to=${email}`;
+    const gmailUrlApp = `mailto:${email}`;
     
-    // Opens Gmail in a new tab
-    window.open(gmailUrl, '_blank');
+    const isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
+  
+    if (isMobile) {
+      window.location.href = gmailUrlApp;
+    } else {
+      window.open(gmailUrlBrowser, '_blank');
+    }
   };
   return (
     <div className="w-[90%] flex flex-col flex-wrap justify-center items-center">
@@ -16,7 +22,7 @@ const Contacts = () => {
       <p className="contact-title text-7xl font-mono p-10 text-center m-8">
         TELL ME ABOUT YOUR NEXT PROJECT
       </p>
-      <button className="w-[300px] h-[100px] rounded-xl border-4 border-white m-10 hover:bg-white hover:text-black" onClick={openGmailInBrowser}>GET IN TOUCH</button>
+      <button className="w-[300px] h-[100px] rounded-xl border-4 border-white m-10 hover:bg-white hover:text-black" onClick={openGmail}>GET IN TOUCH</button>
     </div>
   );
 };
