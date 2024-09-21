@@ -6,15 +6,4 @@
 
 :root {
   font-family: 'Quicksand', sans;
-
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #1E1E20;
 }
-
-body {
-  margin: 0;
-  min-width: 320px;
-  min-height: 100vh;
-}
-

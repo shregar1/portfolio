@@ -21,7 +21,7 @@ const Project = (props) => {
           <p className="text-white font-mono text-4xl text-center md:p-20 p-5 duration-500">
             {title}
           </p>
-          <div className="flex flex-row gap-4 justify-center items-center">
+          <div className="flex flex-row gap-4 justify-center items-center text-white">
             {
               technologies.map(technology => {
                 return <> <span>{technology}</span> <span className="py-4 border-[1px] border-emerald-50"></span> </>

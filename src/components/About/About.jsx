@@ -5,9 +5,9 @@ import TechStack from "../TechStack/TechStack.jsx";
 const About = (props) => {
 
   return (
-    <div className="grid max-w-screen-xl grid-cols-1 flex-col justify-start align-middle">
+    <div className="grid grid-cols-1 flex-col justify-start align-middle overflow-x-hidden">
       <div className="h-60px text-gray-200 flex justify-center align-text-center transition-all">
-        <p className=" text-2xl font-mono px-40 py-5">TECH STACK</p>
+        <p className=" text-2xl font-mono py-5">TECH STACK</p>
       </div>
       <div className="grid grid-cols-1 justify-center p-auto m-auto w-full bg-[#252529] transition-all rounded-t-2xl mt-1">
         <div className="p-2 flex fle-wrap justify-center">

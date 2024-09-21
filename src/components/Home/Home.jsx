@@ -1,5 +1,3 @@
-import Container from "../UI/Container.jsx";
-import Button from "../UI/Button.jsx";
 import WorkExperience from "../WorkExperience/WorkExperience.jsx";
 import "./Home.css";
 import Introduction from "../Introduction/Introduction.jsx";
@@ -7,22 +5,17 @@ import Introduction from "../Introduction/Introduction.jsx";
 const Home = (props) => {
   return (
     <>
-      <div className="home flex flex-row-reverse md:flex-row flex-wrap-reverse justify-center md:justify-between items-center py-16 w-[100%]">
-        <div className="intro-container text-white flex justify-center items-center transition-all w-[100%] md:w-[50%]">
+      <div className="home flex flex-row-reverse md:flex-row flex-wrap-reverse justify-center md:justify-between items-center py-16 w-full">
+        <div className="intro-container text-white flex justify-center items-center transition-all w-full md:w-1/2">
           <div className="text-white transition-all">
             <ul className="flex flex-col">
-              <li className="flex flex-wrap justify-center md:justify-start items-center pt-5">
-                <p className="home-title text-6xl font-mono font-bold text-center md:text-start py-2">
-                  SHREYANSH
-                </p>
+              <li className="home-title flex flex-col flex-wrap justify-center items-center md:items-start text-7xl font-medium px-4">
+              SHREYANSH
               </li>
-              <li className="flex flex-wrap justify-center md:justify-start items-center pt-5">
-                <p className="home-intro text-2xl md:text-3xl lg:text-4xl font-mono font-bold text-center md:text-start">
-                  <Introduction></Introduction>
-                </p>
+              <li className="flex flex-wrap justify-center md:justify-start items-center pt-5 px-4">
+                <Introduction />
               </li>
-
-              <li className="flex flex-wrap justify-center md:justify-start items-center my-2 pt-5">
+              <li className="flex justify-center md:justify-start items-center px-4 pt-5">
                 <p className="home-details text-lg text-gray-500 font-mono text-center md:text-start">
                   A passionate and dedicated software engineer with a thirst for
                   knowledge and a drive to make an impact.

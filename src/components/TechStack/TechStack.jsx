@@ -9,13 +9,13 @@ const TechStack = (props) => {
     <>
       <div className={`grid grid-cols-1 gap-1 mt-1 ${grid_cols}`}>
         {technologies.map((technology, index) => {
-            return (
+            return technology != null ? (
                 <div className="h-60px text-white tech-container hover:bg-white flex justify-center align-text-center bg-[#252529] transition-all" key={index}>
                 <p className=" tech-title text-4xl font-mono font-bold px-40 py-10">
                   {technology}
                 </p>
               </div>
-            )
+            ) : null
         })}
       </div>
     </>

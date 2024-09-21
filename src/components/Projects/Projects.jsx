@@ -56,7 +56,7 @@ const Projects = () => {
   return (
     <div>
       <div className="h-60px text-gray-200 flex justify-center align-text-center transition-all">
-        <p className=" text-2xl font-mono px-40 py-5">PROJECTS</p>
+        <p className=" text-2xl font-mono py-5">PROJECTS</p>
       </div>
       <div className="w-full flex flex-col flex-wrap justify-center items-center bg-[#252529] rounded-2xl relative">
         <div
