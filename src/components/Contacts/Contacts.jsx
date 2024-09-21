@@ -19,7 +19,7 @@ const Contacts = () => {
   return (
     <div className="flex flex-col flex-wrap justify-center items-center">
       <p className="text-2xl text-white font-mono py-5">CONTACTS</p>
-      <p className="contact-title text-7xl font-mono text-center">
+      <p className="contact-title text-7xl md:text-6xl md:w-1/2 font-mono text-center w-full">
         TELL ME ABOUT YOUR NEXT PROJECT
       </p>
       <button
