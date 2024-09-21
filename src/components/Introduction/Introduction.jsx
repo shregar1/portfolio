@@ -8,7 +8,8 @@ const Introduction = () => {
         words={[
           'Backend',
           'Frontend',
-          'ML/DL'
+          'ML',
+          'LLM'
         ]}
         loop={0}  // Set to 0 for infinite loop
         cursor
