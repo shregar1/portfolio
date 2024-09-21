@@ -3,7 +3,7 @@ import { Typewriter } from 'react-simple-typewriter';
 
 const Introduction = () => {
   return (
-    <div style={{ fontSize: '40px', fontWeight: 'bold' }}>
+    <div className='p-0' style={{ fontSize: '40px', fontWeight: 'bold' }}>
       <Typewriter
         words={[
           'Backend',
