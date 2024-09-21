@@ -16,9 +16,9 @@ const WorkExperience = (props) => {
       className="work-experience text-white bg-[#252529] flex flex-col flex-wrap justify-center items-center rounded-2xl"
       onClick={() => setshowDetails(showDetails==="hide" ? "show" : "hide")}
     >
-      <ul className="w-full">
-        <li className={"work-experience-company flex flex-wrap justify-center items-center rounded-2xl " + showDetails}>
-          <p className="work-experience-company-title text-6xl font-mono font-bold text-white py-10 block px-10">
+      <ul className="flex flex-col w-full">
+        <li className={"work-experience-company flex flex-wrap flex-col justify-center items-center rounded-2xl " + showDetails}>
+          <p className="work-experience-company-title text-6xl font-mono font-bold text-white py-10">
             {company_name}
           </p>
         </li>
